@@ -4,7 +4,7 @@
 #
 Name     : pypi-parso
 Version  : 0.8.3
-Release  : 59
+Release  : 60
 URL      : https://files.pythonhosted.org/packages/a2/0e/41f0cca4b85a6ea74d66d2226a7cda8e41206a624f5b330b958ef48e2e52/parso-0.8.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a2/0e/41f0cca4b85a6ea74d66d2226a7cda8e41206a624f5b330b958ef48e2e52/parso-0.8.3.tar.gz
 Summary  : A Python Parser
@@ -14,9 +14,6 @@ Requires: pypi-parso-license = %{version}-%{release}
 Requires: pypi-parso-python = %{version}-%{release}
 Requires: pypi-parso-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: parso
-Provides: parso-python
-Provides: parso-python3
 
 %description
 parso - A Python Parser
@@ -58,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641465826
+export SOURCE_DATE_EPOCH=1650929918
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
